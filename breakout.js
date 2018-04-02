@@ -68,3 +68,5 @@ function draw(){
   y += dy;
 }
 setInterval(draw, 10);
+document.addEventListener("keydown", keyDownHandler, false);
+document.addEventListener("keyup", keyUpHandler, false);
